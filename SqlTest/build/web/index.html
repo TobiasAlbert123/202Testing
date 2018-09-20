@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <form action="getModules">
+            <input id="one" type="submit" value="Click to view modules">
+        </form>
+        
+        <br>
+        
+        <form action="newModule">
+            <input name="mNumber" type="text" placeholder="Module Number">
+            <input name="mName" type="text" placeholder="Module Name">
+            <input name="mDescription" type="text" placeholder="Module description">
+            <input type="submit" value="Add new module">
+        </form>
+        <br>
+        <h1>STUDENTS BELOW</h1>
+        <form action="getStudent">
+            <input type="submit" value="View students">
+        </form>
+        <script>
+            /*
+            window.onload = function() {
+                document.getElementById('one').form.submit();
+            }*/
+        </script>
+    </body>
+</html>

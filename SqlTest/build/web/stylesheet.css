@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 20, 2018, 2:54:41 PM
+    Author     : Tobias
+*/
+
+
+body {
+    background: #ddd;
+}
+
+.module-header {
+    text-align: center;
+    font-family: 'Impact';
+}
+
+.module-container {
+    background: #000;
+    margin: 20px auto;
+}
+
+.modules {
+    font-size: 2em;
+    color: #fff;
+    background: #222;
+    margin: 5px 0;
+}
+
+.student-header {
+    font-size: 10em;
+}
+
+.student-container {
+    background: aquamarine;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student {
+    font-family: 'Comic Sans MS';
+    color: dimgrey;
+    margin: 10px 0;
+    text-align: center;
+}
